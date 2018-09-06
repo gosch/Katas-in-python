@@ -21,7 +21,6 @@ def countSumOfTwoRepresentations1(n, l, r):
                 print(str(a) + ' ' + str(b))
     return counter
 
-print(countSumOfTwoRepresentations2(93, 24, 58))
+# print(countSumOfTwoRepresentations2(93, 24, 58))
+# print(countSumOfTwoRepresentations2(93, 24, 58))
 print(countSumOfTwoRepresentations1(93, 24, 58))
-
-
