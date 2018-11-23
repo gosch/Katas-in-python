@@ -15,4 +15,5 @@ def directionOfReading(numbers):
         r.append(int(''.join(val)))
     return r
 
+
 print(directionOfReading([12, 345, 67, 5]))
