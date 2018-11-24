@@ -6,4 +6,3 @@ def isPrime(n):
 
 
 print(isPrime(4))
-
