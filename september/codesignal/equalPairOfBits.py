@@ -10,5 +10,5 @@ def equalPairOfBits(n, m):
             pos += 1
     return 2**pos
 
-print(equalPairOfBits(10, 11))
 
+print(equalPairOfBits(10, 11))

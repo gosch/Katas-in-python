@@ -98,7 +98,7 @@ def fractionComparison(a, b):
 
 def rotateImage(a):
     mat = []
-    for i in range (len(a)):
+    for i in range(len(a)):
         row = []
         for j in range(len(a[i])-1, -1, -1):
             row.append(a[j][i])

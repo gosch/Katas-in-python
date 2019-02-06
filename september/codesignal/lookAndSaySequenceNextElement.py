@@ -14,7 +14,7 @@ def lookAndSaySequenceNextElement(element):
                 r += str(counter) + str(last_element)
                 last_element = element[i]
                 counter = 1
-        i+=1
+        i += 1
     r += str(counter) + str(last_element)
     return r
 
