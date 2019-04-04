@@ -1,0 +1,35 @@
+{
+    "inputs": {
+        "file0": "input0.csv",
+        "file1": "input1.csv", 
+        "file2": "input2.csv"
+    },
+    "outputs": ["outputFile.txt", "outputFile2.txt"],
+    "arguments": ["p1", "p2", "p3"],
+    "mappings": [
+        {
+            "client": {
+                "name": "abc",
+                "type": "integer",
+                "uom": "meters"
+            },
+            "service": {
+                "name": "CFF7",
+                "type": "long",
+                "uom": "feet"
+            }
+        },
+        {
+            "client": {
+                "name": "xyz",
+                "type": "float",
+                "uom": "degrees_celsius"
+            },
+            "service": {
+                "name": "XT0V",
+                "type": "double",
+                "uom": "degrees_kelvin"
+            }
+        }
+    ]
+}

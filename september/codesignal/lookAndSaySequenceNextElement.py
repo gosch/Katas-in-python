@@ -18,5 +18,6 @@ def lookAndSaySequenceNextElement(element):
     r += str(counter) + str(last_element)
     return r
 
+
 print(lookAndSaySequenceNextElement('1'))
 
