@@ -1,14 +1,14 @@
-def longestDigitsPrefix(inputString):
+def longestDigitsPrefix(inp):
     num = ''
     biggest = ''
     flag = False
-    for i in range(len(inputString)):
-        if inputString[i].isdigit():
+    for i in range(len(inp)):
+        if inp[i].isdigit():
             if flag:
-                num += str(inputString[i])
+                num += str(inp[i])
             else:
                 flag = True
-                num = str(inputString[i])
+                num = str(inp[i])
         else:
             flag = False
             num = ''

@@ -1,9 +1,9 @@
 def countSumOfTwoRepresentations2(n, l, r):
     counter = 0
-    for i in range(l, r + 1):
+    for i in range(l, r+1):
         a = i
         b = n - a
-        if b <= r + 1 and b >= a:
+        if r >= b > a:
             counter += 1
             print(str(a) + ' ' + str(b))
 
@@ -21,6 +21,7 @@ def countSumOfTwoRepresentations1(n, l, r):
                 print(str(a) + ' ' + str(b))
     return counter
 
+
 # print(countSumOfTwoRepresentations2(93, 24, 58))
-# print(countSumOfTwoRepresentations2(93, 24, 58))
+print(countSumOfTwoRepresentations2(93, 24, 58))
 print(countSumOfTwoRepresentations1(93, 24, 58))
