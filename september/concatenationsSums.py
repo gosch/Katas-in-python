@@ -33,13 +33,13 @@
 # The sum of all a[i] ∘ a[j]s. It's guaranteed that the answer is less than 253.
 
 def concatenationsSum(a):
-    count = 0
+    r = 0
     c = [10 ** (len(str(i))) for i in a]
     s = sum(a)
     n = len(a)
     for i in range(len(a)):
-        count += s * c[i] + (a[i] * n)
-    return count
+        r += s * c[i] + (a[i] * n)
+    return r
 
 
 print(concatenationsSum([10, 2]))

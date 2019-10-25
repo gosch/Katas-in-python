@@ -8,4 +8,5 @@ def candles(candlesNumber, makeNew):
         total += candlesNumber
     return total
 
+
 print(candles(5, 2))
