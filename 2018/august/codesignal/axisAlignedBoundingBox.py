@@ -2,7 +2,7 @@ def axisAlignedBoundingBox(x, y):
     x = sorted(x)
     y = sorted(y)
 
-    return (x[2] - x[0]) * (y[2] - y[0])
+    return (x[-1] - x[0]) * (y[-1] - y[0])
 
 
 def lookAndSaySequenceNextElement(element):
@@ -22,8 +22,9 @@ def lookAndSaySequenceNextElement(element):
 
     return ''.join(result)
 
+
 x = [1, 1, 1, 10]
 y = [0, -1, 1, 0]
 
-# print(axisAlignedBoundingBox(x, y))
-print(lookAndSaySequenceNextElement('1'))
+print(axisAlignedBoundingBox(x, y))
+# print(lookAndSaySequenceNextElement('1'))
